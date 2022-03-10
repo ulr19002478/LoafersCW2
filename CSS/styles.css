@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
 
 
+.Rubik{
+
+    font-family: 'Rubik', sans-serif !important;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+body{
+    background-color:#ffffff;
+}
+
+
 .nav-link{
     color:bisque !important;
 }
@@ -15,11 +27,12 @@ footer{
 }
 
 .carousel-item{
-    height:30vh;
+    height:40vh;
 }
 
 #footerHead{
     height:10vh !important;
+    width:100%;
    
 }
 
@@ -33,4 +46,40 @@ footer{
     width:100%;
     text-align:center;
     color:#212529;
+    padding:0px;
 }
+
+#content{
+    background-color:white;
+    text-align:center;
+    padding:0px !important;
+    
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding:5px;
+  }
+
+/* use to see the outline of divs and containers, etc */
+/* {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  } */
+
+  html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+
+.text-center2{
+    width:100%;
+    text-align:center;
+    padding:20px;
+}
+  
