@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+
+
+.nav-link{
+    color:bisque !important;
+}
+
+.navbar-brand{
+    color:#ffe4c4 !important;
+    font-family: 'Rubik', sans-serif !important;
+    font-size:1.7em;
+}
+footer{
+    background-color:black;
+}
+
+.carousel-item{
+    height:30vh;
+}
+
+#footerHead{
+    height:10vh !important;
+   
+}
+
+.text-center{
+    background-color:#212529;
+    color:bisque;
+    font-family: 'Rubik', sans-serif !important;
+}
+
+.footerText{
+    width:100%;
+    text-align:center;
+    color:#212529;
+}
