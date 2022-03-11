@@ -20,7 +20,7 @@ body{
 .navbar-brand{
     color:#ffe4c4 !important;
     font-family: 'Rubik', sans-serif !important;
-    font-size:1.7em;
+    font-size:1.6em;
 }
 footer{
     background-color:black;
@@ -33,7 +33,13 @@ footer{
 #footerHead{
     height:10vh !important;
     width:100%;
+    border:10px;
    
+}
+
+#footerHead2{
+    height: 2vh !important;
+    width: 100%;
 }
 
 .text-center{
@@ -65,7 +71,7 @@ footer{
   }
 
 /* use to see the outline of divs and containers, etc */
-/* {
+/* *{
     background: #000 !important;
     color: #0f0 !important;
     outline: solid #f00 1px !important;
@@ -82,4 +88,10 @@ footer{
     text-align:center;
     padding:20px;
 }
-  
+
+.btn-primary{
+    background-color:bisque !important;
+    border-color:rgb(199, 179, 154) !important;
+    color: #212529 !important;
+}
+
