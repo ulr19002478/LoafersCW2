@@ -30,17 +30,13 @@ footer{
     height:40vh;
 }
 
-#footerHead{
-    height:10vh !important;
+.footerHead{
+    height:15vh !important;
     width:100%;
-    border:10px;
+
    
 }
 
-#footerHead2{
-    height: 2vh !important;
-    width: 100%;
-}
 
 .text-center{
     background-color:#212529;
@@ -49,10 +45,10 @@ footer{
 }
 
 .footerText{
-    width:100%;
+  
     text-align:center;
     color:#212529;
-    padding:-5px;
+
 }
 
 #content{
@@ -71,7 +67,7 @@ footer{
   }
 
 /* use to see the outline of divs and containers, etc */
-/* *{
+ /*{
     background: #000 !important;
     color: #0f0 !important;
     outline: solid #f00 1px !important;
