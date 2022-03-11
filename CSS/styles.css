@@ -20,7 +20,7 @@ body{
 .navbar-brand{
     color:#ffe4c4 !important;
     font-family: 'Rubik', sans-serif !important;
-    font-size:1.6em;
+    font-size:1.5em;
 }
 footer{
     background-color:black;
@@ -52,7 +52,7 @@ footer{
     width:100%;
     text-align:center;
     color:#212529;
-    padding:0px;
+    padding:5px;
 }
 
 #content{
