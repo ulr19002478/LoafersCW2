@@ -33,8 +33,13 @@ footer{
 .footerHead{
     height:15vh !important;
     width:100%;
+}
 
-   
+.footerHead2{
+    height:2vh !important;
+    width:100%;
+    padding-top:0rem !important;
+    padding-bottom:0rem !important;
 }
 
 
@@ -96,6 +101,12 @@ footer{
     align-items:center;
     justify-content:space-between;
     
+}
 
-    
+body{
+    background-color:#212529;
+}
+
+main{
+    background-color:white;
 }
