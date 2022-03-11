@@ -66,8 +66,8 @@ footer{
     padding:5px;
   }
 
-/* use to see the outline of divs and containers, etc */
- /*{
+/* use to see the outline of divs and containers, etc */ /*
+  *{
     background: #000 !important;
     color: #0f0 !important;
     outline: solid #f00 1px !important;
