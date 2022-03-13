@@ -84,6 +84,13 @@ footer{
     text-align:center;
 }
 
+.text-center3{
+    width:100%;
+    text-align:center;
+    padding:20px;
+}
+
+
 .btn-primary{
     background-color:bisque !important;
     border-color:rgb(199, 179, 154) !important;
@@ -105,3 +112,4 @@ body{
 main{
     background-color:white;
 }
+
