@@ -88,30 +88,101 @@
               <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
             </div>
             <div class="mb-3 text-center3">
-                <label for="userName" class="form-label Rubik">Sandwich Bread: </label>
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="nameHelp">
+                <label for="bread" class="form-label Rubik">Sandwich Bread: </label>
+                <select id="bread" class="d-block w-100">
+                  <option class="selection-text">Select a Bread</option>
+                  <option class="selection-text" value="White Bread">White Bread</option>
+                  <option class="selection-text" value="Malted Bread">Malted Bread</option>
+                  <option class="selection-text" value="Wholemeal Bread">Wholemeal Bread</option>
+                </select>           
             </div>
             <div class="mb-3 text-center3">
-                <label for="userName" class="form-label Rubik">Ingredient One: </label>
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="nameHelp">
+                <label for="ingre1" class="form-label Rubik">Ingredient One: </label>
+                <select id="ingre1" class="d-block w-100">
+                  <option class="selection-text">Select a Ingredient</option>
+                  <option class="selection-text" value="Lettuce">Lettuce</option>
+                  <option class="selection-text" value="Tomatoes">Tomatoes</option>
+                  <option class="selection-text" value="Sausage">Sausage</option>
+                  <option class="selection-text" value="Egg">Egg</option>
+                  <option class="selection-text" value="Ham">Ham</option>
+                  <option class="selection-text" value="Cheese">Cheese</option>
+                  <option class="selection-text" value="Bacon">Bacon</option>
+                  <option class="selection-text" value="Chicken">Chicken</option>
+                </select>
             </div>
             <div class="mb-3 text-center3">
-                <label for="userName" class="form-label Rubik">Ingredient Two (Optional): </label>
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="nameHelp">
+                <label for="ingre2" class="form-label Rubik">Ingredient Two (Optional): </label>
+                <select id="ingre2" class="d-block w-100">
+                  <option class="selection-text">Select a Ingredient</option>
+                  <option class="selection-text" value="Lettuce">Lettuce</option>
+                  <option class="selection-text" value="Tomatoes">Tomatoes</option>
+                  <option class="selection-text" value="Sausage">Sausage</option>
+                  <option class="selection-text" value="Egg">Egg</option>
+                  <option class="selection-text" value="Ham">Ham</option>
+                  <option class="selection-text" value="Cheese">Cheese</option>
+                  <option class="selection-text" value="Bacon">Bacon</option>
+                  <option class="selection-text" value="Chicken">Chicken</option>
+                </select>               
             </div>
             <div class="mb-3 text-center3">
-                <label for="userName" class="form-label Rubik">Ingredient Three (Optional): </label>
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="nameHelp">
+                <label for="ingre3" class="form-label Rubik">Ingredient Three (Optional): </label>
+                <select id="ingre3" class="d-block w-100">
+                  <option class="selection-text">Select a Ingredient</option>
+                  <option class="selection-text" value="Lettuce">Lettuce</option>
+                  <option class="selection-text" value="Tomatoes">Tomatoes</option>
+                  <option class="selection-text" value="Sausage">Sausage</option>
+                  <option class="selection-text" value="Egg">Egg</option>
+                  <option class="selection-text" value="Ham">Ham</option>
+                  <option class="selection-text" value="Cheese">Cheese</option>
+                  <option class="selection-text" value="Bacon">Bacon</option>
+                  <option class="selection-text" value="Chicken">Chicken</option>
+                </select>
             </div>
             <div class="mb-3 text-center3">
-                <label for="userName" class="form-label Rubik">Ingredient Four (Optional): </label>
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="nameHelp">
+                <label for="ingre4" class="form-label Rubik">Ingredient Four (Optional): </label>
+                <select id="ingre4" class="d-block w-100">
+                  <option class="selection-text">Select a Ingredient</option>
+                  <option class="selection-text" value="Lettuce">Lettuce</option>
+                  <option class="selection-text" value="Tomatoes">Tomatoes</option>
+                  <option class="selection-text" value="Sausage">Sausage</option>
+                  <option class="selection-text" value="Egg">Egg</option>
+                  <option class="selection-text" value="Ham">Ham</option>
+                  <option class="selection-text" value="Cheese">Cheese</option>
+                  <option class="selection-text" value="Bacon">Bacon</option>
+                  <option class="selection-text" value="Chicken">Chicken</option>
+                </select>
             </div>
               
             <Div class ="d-grid gap-2 col-6 mx-auto"  style="padding-bottom:30px;">
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="button" id="order-btn" class="btn btn-primary">Order</button>
             </div>
+            
+                              <!-- MODAL -->
+
+            <div id="order-modal" class="modal" tabindex="-1">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Your Order</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div  class="modal-body">
+                    <p id="order-text">Modal body text goes here.</p>
+                    <p id="order-text1">Modal body text goes here.</p>
+                    <p id="order-text2">Modal body text goes here.</p>
+                    <p id="order-text3">Modal body text goes here.</p>
+                    <p id="order-text4">Modal body text goes here.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">X</button>
+                    <button type="button" id="save-btn" class="btn btn-primary">Order</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
     </main>
+
     
 
     <!-- FOOTER -->
@@ -135,5 +206,6 @@
   
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="scripts/script.js"></script>
   </body>
 </html>
