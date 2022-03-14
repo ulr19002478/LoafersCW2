@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="CSS/styles.css" rel="stylesheet">
 
-    <title>Catering</title>
+    <title>Order Here!</title>
   </head>
   <body>
 
@@ -81,52 +81,38 @@
     </div>
     <!-- Content-->
     <main>
-    <div class="container text-center2">
-        <h1 class="Rubik2" style="padding-top:5vh;">Catering Menus</h1>
-        <p>We offer a very good service and selection of office and training lunches. We can deliver more or less what you want from our normal hot & cold shop menu, it may be that you would prefer jacket potatoes or bacon sandwiches. Maybe get a dozen ¼ pounders delivered to the office?</p>
-   
-        <p>We can take orders up until 3pm the day before you need the lunch or other food delivery, although longer notice is of course preferred. There are limits to our delivery destinations and carrying capabilities, happily to deliver for free in Taunton but a small charge may be made for the surrounding areas. At the moment we don’t really deliver smaller orders but if it’s a sensible order we’ll certainly do what we can to get it to you.</p>
-        <h2 class="Rubik">Catering Menu Suggestions</h2><br>
-    </div>
-     
-        <div class="container text-center2">
-         <div class = "row">
-            <div class = "col-12">
-                <h2 class="Rubik">Menu A</h2>
-                <p>£3.50 per person
-                    A selection of freshly made sandwiches (4 quarters per person) with assorted fillings on white, granary and wholemeal bread. Plus a packet of crisps.</p>
-                <img src="img/Sandwich1.jpg" class="d-block w-30 center">
+        <form id="contactForm" class="d-grid gap-2 col-6 mx-auto">
+            <div class="mb-3 text-center3" style="padding: top 5vh;">
+              <label for="exampleInputEmail1" class="form-label Rubik">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
             </div>
-         </div>
-         <div class = "row">
-            <div class = "col-12">
-                <h2 class="Rubik">Menu B</h2>
-                <p>£3.50 per person
-                    £4.75 per person
-                    This menu offers a sandwich platter (4 quarters per person) with assorted fillings on white, granary and wholemeal bread plus a delicious savoury selection. Plus a packet of crisps.</p>
-                <img src="img/Sandwich1.jpg" class="d-block w-30 center">
+            <div class="mb-3 text-center3">
+                <label for="userName" class="form-label Rubik">Sandwich Bread: </label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="nameHelp">
             </div>
-         </div>
-         <div class = "row">
-            <div class = "col-12">
-                <h2 class="Rubik">Menu C</h2>
-                <p>£3.50 per person
-                    £5.75 per person
-                    This menu offers a sandwich platter (4 quarters per person) with assorted fillings on white, granary and wholemeal bread plus a delicious savoury selection and a platter of tasty cakes. Plus a packet of crisps.</p>
-                <img src="img/Sandwich1.jpg" class="d-block w-30 center">
+            <div class="mb-3 text-center3">
+                <label for="userName" class="form-label Rubik">Ingredient One: </label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="nameHelp">
             </div>
-         </div>
-         <div class = "row" style="padding-bottom:5vh;">
-            <div class = "col-12">
-                <h2 class="Rubik">Menu D</h2>
-                <p>£3.50 per person
-                    £6.75 per person
-                    This menu offers a sandwich platter (4 quarters per person) with assorted fillings on white, granary and wholemeal bread plus a delicious savoury selection, a platter of tasty cakes and a fruit platter. Plus a packet of crisps..</p>
-                <img src="img/Sandwich1.jpg" class="d-block w-30 center">
+            <div class="mb-3 text-center3">
+                <label for="userName" class="form-label Rubik">Ingredient Two (Optional): </label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="nameHelp">
             </div>
-         </div>
-        </div>
+            <div class="mb-3 text-center3">
+                <label for="userName" class="form-label Rubik">Ingredient Three (Optional): </label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="nameHelp">
+            </div>
+            <div class="mb-3 text-center3">
+                <label for="userName" class="form-label Rubik">Ingredient Four (Optional): </label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="nameHelp">
+            </div>
+              
+            <Div class ="d-grid gap-2 col-6 mx-auto"  style="padding-bottom:30px;">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
     </main>
+    
 
     <!-- FOOTER -->
   

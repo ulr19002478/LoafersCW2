@@ -120,3 +120,7 @@ main{
     background-color:white;
 }
 
+.btn-info{
+    background-color:bisque;
+    border-color:rgb(206, 184, 157);
+}
